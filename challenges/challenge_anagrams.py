@@ -49,6 +49,3 @@ def is_anagram(first_string, second_string):
         return (first_ordered, second_ordered, True)
     else:
         return (first_ordered, second_ordered, False)
-
-
-print(is_anagram("", ""))
